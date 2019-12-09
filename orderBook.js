@@ -1,4 +1,4 @@
-/* eslint-disable indent */
+
 function matchingOrder(existingBook, incomingOrder) {
     let matchingOrder = existingBook.filter((item) => {
         return item.type !== incomingOrder.type &&
